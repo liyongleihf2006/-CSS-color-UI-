@@ -1,3 +1,2 @@
 # -CSS-color-UI-
-抄袭自[张鑫旭](http://www.zhangxinxu.com/wordpress/2016/11/development-ui-component-based-on-css-color/)
-简洁干净的按钮标签css主题实现策略
+抄袭自[张鑫旭的基于CSS color属性的静态UI组件重构策略](http://www.zhangxinxu.com/wordpress/2016/11/development-ui-component-based-on-css-color/)
