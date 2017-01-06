@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* 基本按钮 */
+        .btn-normal{
+            display: inline-block;
+            font-size: 14px;
+            line-height: 30px;
+            padding: 0 16px;
+            text-align: center;
+            border-radius: 2px;
+            background-color: currentColor;
+            cursor: pointer;
+        }
+        .btn-normal::first-line{
+            color: #fff;
+        }
+        .btn-normal.white{
+            box-shadow: inset 1px 0 #e3e4e6, inset 0 1px #e3e4e6, inset 0 -1px #e3e4e6, inset -1px 0 #e3e4e6;
+        }
+        .btn-normal.white::first-line{
+            color: #33373d;
+        }
+        .btn-normal:active,.btn-normal:hover{
+            background-image: -webkit-linear-gradient(to top, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05));
+            background-image: linear-gradient(to top,rgba(0,0,0,.05),rgba(0,0,0,.05));
+        }
+        /*小标签*/
+        .tag-solid{
+            font-size: 12px;
+            line-height: 1.5;
+            display: inline-block;
+            padding: 0 .25em;
+            border-radius: 2px;
+            background-color: currentColor;
+        }
+        .tag-solid::first-line{
+            color: #fff;
+        }
+        /*带质感的标签*/
+        .tag-honor{
+            font-size: 12px;
+            line-height: 16px;
+            padding: 0 .5em;
+            display: inline-block;
+            text-align: center;
+            border: 1px solid #fff;
+            border-radius: 40px;
+            background-color: currentColor;
+            background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, 0) 50%);
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, 0) 50%);
+        }
+        .tag-honor::first-line{
+            color: #fff;
+        }
+        /*线框标签*/
+        .tag-line{
+            font-size: 12px;
+            line-height: 20px;
+            display: inline-block;
+            padding: 0 1em;
+            border: 1px solid;
+            border-radius: 2em;
+            background-color: #fff;
+        }
+        /* 基础颜色，放在最后 */
+        .dark {
+            color: #33373d;
+        }
+        .gray {
+            color: #969ba3;
+        }
+        .blue {
+            color: #4284ed;
+        }
+        .green {
+            color: #7ed321;
+        }
+        .orange {
+            color: #f0643a;
+        }
+        .yellow {
+            color: #f0c53a;
+        }
+        .purple {
+            color: #a091ff;
+        }
+        .red {
+            color: #ed424b;
+        }
+        .white {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h4>1、基础颜色</h4>
+    <p>
+        <span class="dark">主色</span>
+        <span class="gray">灰色</span>
+        <span class="blue">蓝色</span>
+        <span class="green">绿色</span>
+        <span class="orange">橙色</span>
+        <span class="yellow">黄色</span>
+        <span class="purple">紫色</span>
+        <span class="red">红色</span>
+    </p>
+    <h4>2、基本按钮</h4>
+    <p>
+        <span class="btn-normal dark">主色</span>
+        <span class="btn-normal gray">灰色</span>
+        <span class="btn-normal blue">蓝色</span>
+        <span class="btn-normal green">绿色</span>
+        <span class="btn-normal orange">橙色</span>
+        <span class="btn-normal yellow">黄色</span>
+        <span class="btn-normal purple">紫色</span>
+        <span class="btn-normal red">红色</span>
+        <span class="btn-normal white">白色</span>
+    </p>
+    <h4>3、实色小标签</h4>
+    <p>
+        <span class="tag-solid dark">主色</span>
+        <span class="tag-solid gray">灰色</span>
+        <span class="tag-solid blue">蓝色</span>
+        <span class="tag-solid green">绿色</span>
+        <span class="tag-solid orange">橙色</span>
+        <span class="tag-solid yellow">黄色</span>
+        <span class="tag-solid purple">紫色</span>
+        <span class="tag-solid red">红色</span>
+        <span class="tag-solid white">白色</span>
+    </p>
+    <h4>4、大圆角质感标签</h4>
+    <p>
+        <span class="tag-honor dark">主色</span>
+        <span class="tag-honor gray">灰色</span>
+        <span class="tag-honor blue">蓝色</span>
+        <span class="tag-honor green">绿色</span>
+        <span class="tag-honor orange">橙色</span>
+        <span class="tag-honor yellow">黄色</span>
+        <span class="tag-honor purple">紫色</span>
+        <span class="tag-honor red">红色</span>
+    </p>
+    <h4>3. 线框标签</h4>
+    <p>
+        <span class="tag-line dark">主色</span>
+        <span class="tag-line gray">灰色</span>
+        <span class="tag-line blue">蓝色</span>
+        <span class="tag-line green">绿色</span>
+        <span class="tag-line orange">橙色</span>
+        <span class="tag-line yellow">黄色</span>
+        <span class="tag-line purple">紫色</span>
+        <span class="tag-line red">红色</span>
+    </p>
+</body>
+</html>
